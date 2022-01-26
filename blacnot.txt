@@ -1,0 +1,12 @@
+1 command
+git init => *git initialize=> git boshla
+
+
+2command
+git add index.html*//bu comand fayl ichidagi barcha teglarni va attibutlarni qoshadi//*
+
+git add . *//bu comanda papkadagi barcha fayllarni qoshadi//*
+
+
+3command 
+git status *//git papkaga qoshilgan yoki qoshilmagan papkalar haqida korsatadi//*
