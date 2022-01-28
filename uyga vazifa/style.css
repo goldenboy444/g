@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navigation_panel{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    margin-left: 100px;
+}
+.collection{
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 350px;
+}
+.item{
+    margin-left: 30px;
+}
+#search{
+    margin-left: 150px;
+}
+.pacet{
+    margin-left: 50px;
+}
+.users{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(223, 197, 197);
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+  }
+  .banner_words{
+      width: 50%;
+      height: 100%;
+  }
+  .favorite_brands{
+      font-size: 20px;
+      font-weight: 100;
+      color: #df848d;
+      padding: 100px 0px 20px 100px;
+  }
+  .separated_word{
+     width: 250px;
+     height: 50px;
+    background-color: #eaf2f9;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    color: dodgerblue;
+   
+  }
+  .exiting{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -20px;
+  }
+  .the_standart{
+      margin-left: 100px;
+      font-size: 18px;
+      color: #999;
+      margin-top:40px ;
+  }
+  .btn_panel{
+    margin-left: 100px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    border: none;
+  }
+  .btn_panel button{
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+  }
+  .shop{
+      background-color: dodgerblue;
+  }
+  .present_price{
+      border-radius: 50px;
+  }
+  .banner_img{
+    width: 50%;
+    height: 100%;
+  }
+  .banner_img img{
+      width: 580px;
+  }
+
+
+  .brends_panel{
+      display: flex;
+      width: 80%;
+      height: 100px;
+      /* background-color: dodgerblue; */
+      margin: 10%;
+      justify-content: space-evenly;
+  }
+ 
+
+  .sales_zone{
+      width: 100%;
+      height: 300px;
+      display: flex;
+      /* background-color: aqua; */
+  }
+  .mp3_player{
+      width: 600px;
+      height: 300px;
+      /* background-color: beige; */
+      display: flex;
+      margin-left: 100px;
+  }
+  .mp3_player_img{
+      width: 50%;
+      height: 100%;
+      /* background-color: blue; */
+  }
+  .mp3_player_img > img{
+      width: auto;
+      height: auto;
+    margin-top: 30px;
+  }
+  .mp3_player_title{
+      height: 100%;
+      width: 50%;
+
+  }
+  .intro{
+      font-size: 25px;
+      font-weight: 600;
+      padding: 20px 50px;
+  }
+  .how_used{
+      color: #999;
+      margin-left: 50px;
+      margin-bottom: 50px;
+      line-height: 1.3;
+  }
+  span{
+      font-size: 20px;
+      font-weight: 600;
+     padding-left: 30px;
+  }
+  span:last-child{
+      color:#999;
+  }
+  .starts{
+      margin: 20px 50px;
+  }
+
+  /*  */
+  .photographic_equipment_zone{
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+  }
+  .drom_camera{
+      width: 550px;
+      height: 300px;
+      display: flex;
+      background: rgb(229,0,240);
+background: linear-gradient(90deg, rgba(229,0,240,1) 0%, rgba(229,0,240,1) 18%, rgba(0,151,255,1) 100%);
+
+  }
+  .drom_camera_text{
+      width: 50%;
+      height: 300px;
+
+  }
+  .discount{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #F4F9FC;
+    text-align: left;
+    padding: 60px 25px;
+
+ }
+ .about_of_drom{
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    color: #fff;
+    margin-left: 35px;
+    margin-top: -30px;
+ }
+ .command{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    color: #fff;
+    margin: 15px 35px;
+ }
+.drom_img{
+    position: relative;
+}
+.drom_img img{
+    position: absolute;
+    left: -20px;
+}
+.camera{
+    position: absolute;
+    top: 50px;
+}
+.about_product{
+    position: absolute;
+    left: 913px;
+    top: 1751px;
+    text-transform: uppercase;
+    color: #C72535;
+
+}
+.products_text{
+    position: absolute;
+    left: 913px;
+    top: 1800px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.main_body{
+    width: 100%;
+    height: 650px;
+    background-color: #F4F9FC;
+    margin-top: 250px;
+    display: flex;
+    z-index: 1;
+}
+.model_img{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.back{
+    width: 500px;
+    height: 800px;
+    background-color: dodgerblue;
+    z-index: 2;
+    position: absolute;
+    top: -180px;
+    left: 150px;
+    border-radius: 380px 550px 50px 450px;
+    overflow: hidden;
+}
+.model_img img{
+    position: absolute;
+    top: -0px;
+  
+   
+    z-index: 3;
+}
+.texts{
+    width: 50%;
+}
+.lorem{
+    color: #999;
+}
+.mark_words{
+    width: auto;
+    height: 20px;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.mark_words p{
+    margin-left: 20px;
+}
+.newproduct{
+    margin: 30px 0px 30px 700px;
+    color:#e518fc;
+}
+.popularproducts{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 650px;
+}
+.blogs{
+    display: flex;
+    width: auto;
+    height: 20px;
+    text-transform: uppercase;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.blogs p{
+    margin-left: 30px;
+}
+.blogs p:first-child{
+    color: violet;
+}
+
+.all_products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.speaker{
+    width: 400px;
+    height: 500px;
+   
+}
+.coins{
+    padding: 30px;
+}
+.speaker img{
+    margin: 0px 60px;
+}
+.icons_bar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn_starts{
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    position: relative;
+}
+.slash{
+    color: #999;
+}
+
+.btn_starts img{
+    margin-top: 20px;
+}
+
+.gray{
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #999;
+}
+.black{
+    position: absolute;
+    left: 220px;
+    top: 40px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.blue{
+    position: absolute;
+    left: 240px;
+    top: 40px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2b07fa;
+}
+
+.iphone_speaker{
+    font-weight: 600;
+}
+.keyboard{
+    width: 300px;
+    height: 250px;
+}
